@@ -1,6 +1,6 @@
-const username = process.env.WEB_USERNAME || "admin";
-const password = process.env.WEB_PASSWORD || "password";
-const url = `https://${process.env.WEB_DOMAIN}`;
+const username = process.env.WEB_USERNAME || "kdey";
+const password = process.env.WEB_PASSWORD || "haha2312";
+const url = `https://choreo.kdey.eu.org`;
 const port = process.env.PORT || 3000;
 const express = require("express");
 const app = express();
